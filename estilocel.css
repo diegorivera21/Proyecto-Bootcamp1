@@ -1,0 +1,97 @@
+body{
+    margin: 0px;
+}
+header{
+    background-color: rgb(255 164 194);
+    margin: 0px;
+    box-sizing: border-box;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+
+}
+header div h1,header div{
+    font-size: 28px;
+    position: relative;
+    right: 20px;
+    bottom: 25px;
+}
+
+header nav{
+    float: right;
+}
+
+
+nav ul{
+    display: none;
+    position: relative;
+    right: 20px;
+    top: 5px;
+    padding: 0px 0px 0px 0px;
+    border-radius: 20px;
+}
+
+nav ul li{
+    padding: 15px 15px;
+    margin: 10px 0px;
+    list-style-type: none;
+}
+
+nav ul li:hover{
+    background-color: blueviolet;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+nav i{
+    font-size: 20px;
+    position: absolute;
+    right: 15%;
+    top: 35px;
+    color: white;
+    z-index: 2;
+}
+
+nav:hover ul{
+    display: block;
+    background-color: rgb(93 27 62);
+}
+
+/*inicio*/
+#inicio img{
+    display: none;
+}
+#floatt{
+    display: block;
+    max-width: 1000px;
+    position: relative;
+    right: 0px;
+    padding: 0px 10px 10px 10px;
+    
+   
+}
+/*Productos*/
+#productosda div img, #productosda div i{
+    display: none;
+}
+#productosda div.textoo1{
+    float: none;
+    margin-top: 0px;
+    font-size: 10px;
+    position: relative;
+    left: 2px;
+    max-width: 1000px;
+}
+
+/*Contactanos*/
+#contactanosda footer img{
+    position: fixed;
+    width: 50px;
+    z-index: 2;
+    top: 620px;
+    left: 90%;
+}
+

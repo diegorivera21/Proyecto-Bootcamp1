@@ -1,0 +1,234 @@
+header{
+    background-color: rgb(255 164 194);
+    margin: 0px;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+
+}
+
+.box{
+    height: 20px;
+}
+
+#logonav{
+    position: relative;
+    top: 25px;
+}
+
+
+
+header div h1{
+    font-family: cursive;
+}
+
+header div{
+    position: relative;
+    bottom: 20px;
+}
+
+header nav{
+    float: right;
+    position: relative;
+    right: 30px;
+    bottom: 30px;
+}
+nav ul li:hover{
+    background-color: rgb(199, 7, 157) ;
+}
+
+body{
+    margin: 0px;
+    background-color: blue;
+    border: 2px solid black;
+}
+
+nav li{
+    float: left;
+    padding: 0px 10px;
+    margin: 0px 10px;
+    list-style-type: none;
+}
+
+li a{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+#logo{
+    position: relative;
+    top: 62px;
+    left: 50px;
+}
+
+
+
+header div h1{
+    color: white;
+    position: relative;
+    top: 15px;
+    left: 25px;
+
+}
+
+header div img{
+    position: relative;
+    left: 48px;
+}
+
+
+div.item img, div.item active, div.item video{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 60vh;
+    
+}
+
+#myCarousel{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: rgb(255 164 194);
+    border: 2px solid palevioletred;
+}
+
+
+/*Inicio*/
+#inicio div h2,#inicio div h3{
+    text-align: center;
+    font-family: monospace;
+    margin-top: 0px;
+
+}
+
+#inicio div{
+    background-color: white;
+    margin-top: 0px;
+
+}
+
+#floatt{
+    float: right;
+    max-width: 500px;
+    position: relative;
+    right: 80px;
+    padding: 0px 10px 10px 10px;
+
+}
+
+#inicio div.bgc{
+    background-color: rgb(241 153 182);
+}
+
+ .txtx {
+     display: inline;
+     padding: 5px 0px;
+ }
+
+ .txtx h4{
+     text-align: center;
+    
+ }
+
+ .txtx p{
+     text-align: justify;
+ }
+
+#inicio img{
+    margin-left: 10px;
+    border: 2px solid black;
+    margin-right: 0px;
+    width: 30%;
+
+}
+
+/*Productos*/
+#productosda{
+    background-color: palevioletred;
+    margin-top: 45px;
+}
+
+#productosda h2,#productosda h3{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#productosda p{
+    text-align: justify;
+    padding: 15px;
+}
+
+#productosda div.textoo1{
+    float: right;
+    color: black;
+    max-width: 45%;
+    height: 70vh;
+    position: relative;
+    right: 50px;
+    background-color: rgb(196 25 175);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+
+}
+
+#productosda div i{
+    font-size: 100px;
+    color:  black;
+}
+
+
+#productosda img{
+    width: 35%;
+    margin-left: 25px;
+    margin-bottom: 18px;
+}
+
+
+ /*Galeria*/
+#galeria{
+    margin-top: 0px;
+    overflow: auto;
+    background-color: rgb(196 25 175);
+
+}
+div.imagen-galeria{
+    float: left;
+    width: 33%;
+    height: 70vh;
+    margin-bottom: 150px;
+
+}
+
+div.imagen-galeria img{
+    margin-left: 5%;
+}
+#galeria h1{
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 30px;
+    text-align: center;
+}
+
+/*Contactanos*/
+#contactanosda{
+    background-color:rgb(255 164 194);
+    margin-top: 0px;
+    border: 2px solid black;
+}
+
+#contactanosda footer img{
+    width: 50px;
+    position: fixed;
+    z-index: 2;
+    top: 620px;
+    left: 95%;
+}
+
+#contactanosda form h3{
+    text-align: center;
+}
+
+
